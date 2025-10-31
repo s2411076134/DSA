@@ -63,7 +63,7 @@ public:
 			return;
 		}
 		
-		if (head == tail) { //If there is only onr value ; 
+		if (head == tail) { //If there is only one value ; 
         delete head;
         head = tail = NULL;
         return;
